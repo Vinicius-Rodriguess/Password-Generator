@@ -13,6 +13,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/151/553/large_2x/dark-geometric-black-abstract-background-elegent-design-pattern-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .logo{
@@ -30,7 +34,7 @@ body{
     font-size: 22px;
 }
 
-.slider{
+.slider {
     -webkit-appearance: none;
     width: 100%;
     border-radius: 5px;
@@ -38,6 +42,16 @@ body{
     height: 18px;
     outline: none;
     margin-top: 8px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #3eb72b;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .button-cta{
@@ -50,6 +64,11 @@ body{
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+}
+
+.button-cta:hover {
+    background-color: #3aaa29e8;
+    transition: 0.3s;
 }
 
 .container-password{
