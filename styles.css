@@ -126,3 +126,18 @@ body{
     opacity: 1;
     bottom: 1;
 }
+
+@media (max-width: 650px){
+
+    .logo{
+        max-width: 350px;
+    }
+
+    .container-input{
+        max-width: 310px;
+    }
+
+    .container-password{
+        max-width: 310px;
+    }
+}
