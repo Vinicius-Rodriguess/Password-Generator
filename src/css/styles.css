@@ -64,6 +64,7 @@ body{
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .button-cta:hover {
@@ -87,6 +88,7 @@ body{
     margin-top: 24px;
     margin-bottom: 8px;
 }
+
 .password{
     height: 60px;
     background-color: rgb(0, 0, 0, 0.4);
@@ -121,11 +123,34 @@ body{
     display: none;
 }
 
+
 .container-password:hover .tooltip{
     visibility: visible;
     opacity: 1;
     bottom: 1;
 }
+
+.div-checkbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-checkbox label {
+    color: #fff;
+}
+
+#error {
+    color: red;
+    font-size: 15px;
+    margin-left: 25%;
+    font-weight: bold;
+    text-align: center;
+} 
+
+.hide-erro { 
+    display: none;
+}
+
 
 @media (max-width: 650px){
 

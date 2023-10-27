@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "<a href=\"https://vinicius-rodriguess.github.io/Gerador-de-senhas/\">Clique aqui para testar o projeto</a>\r <p></p>\r <img src=\"./img/gerador%20de%20senha%20.png\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Senhas</title>
     <meta name="keywords" content="Gerador de senhas">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
 </head>
+
 <body>
-    <img class="logo"  src="./img/logo.png" alt="Gerador de senha logo">
+    <img class="logo" src="./src/img/logo.png" alt="Gerador de senha logo">
     <main class="container-input">
         <span>Tamanho <span id="valor"> </span> caracteres.</span>
         <input type="range" id="slider" class="slider" min="5" max="25" value="15">
-        <button id="button" class="button-cta" onclick="generatePassword()">Gerar Senha</button>
+        <div class="div-checkbox">
+            <label for="">Simbolos</label>
+            <input type="checkbox" class="chk-simbolos" checked>
+            <label for="">Maiúsculas</label>
+            <input type="checkbox" class="chk-maiusculas" checked>
+            <label for="">Minúsculas</label>
+            <input type="checkbox" class="chk-minusculas" checked>
+            <label for="">Numeros</label>
+            <input type="checkbox" class="chk-numeros" checked>
+        </div>
+        <button id="button" class="button-cta">Gerar Senha</button>
+        <span id="error" class="hide">Selecione ao menos uma opção!</span>
     </main>
     <div id="container-password" class="container-password hide">
         <span class="title">Sua senha gerada foi:</span>
         <span id="password" class="password" onclick="copyPassword()"></span>
         <span class="tooltip">Clique na senha para copiar. 👆</span>
     </div>
-    <script src="./script.js"></script>
+    <script src="./src/js/script.js"></script>
 </body>
+
 </html>
