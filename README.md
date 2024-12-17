@@ -27,6 +27,7 @@ A interface interativa oferece uma maneira fácil de ajustar as configurações 
 ## 🔧 **Como Executar o Projeto**
 
 <a href="https://vinicius-rodriguess.github.io/Gerador-de-senhas/">Clique aqui para testar o projeto</a>
+
 <img src="./src/img/gerador de senha .png"/>
 
 Ou então:
