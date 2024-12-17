@@ -24,21 +24,12 @@ A interface interativa oferece uma maneira fácil de ajustar as configurações 
 
 ---
 
-## 📂 **Estrutura do Projeto**
-
-src/
-│
-├── assets/              
-│   ├── css/                 # Arquivos CSS
-│   ├── js/                  # Arquivos JavaScript
-│
-├── index.html              # Página principal do gerador de senhas
-│
-└── README.md               # Documentação do projeto
-
----
-
 ## 🔧 **Como Executar o Projeto**
+
+<a href="https://vinicius-rodriguess.github.io/Gerador-de-senhas/">Clique aqui para testar o projeto</a>
+<img src="./src/img/gerador de senha .png"/>
+
+Ou então:
 
 1. **Clone este Repositório**:
 
