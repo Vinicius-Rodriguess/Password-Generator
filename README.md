@@ -35,7 +35,7 @@ Ou então:
 1. **Clone este Repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/password-generator.git
+   git clone https://github.com/Vinicius-Rodriguess/Password-Generator.git
    cd password-generator
    ```
 
